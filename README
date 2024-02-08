@@ -1,0 +1,23 @@
+Formalization of translation from VASS to VAS.
+
+Developed on Coq 8.19 and Mathematical Components 2.2.0.
+
+Contents:
+
+* monad.v -- For the definition and properties of foldm (monadic foldl). 
+  This code is from https://bitbucket.org/mituharu/karpmiller/src/master/.
+* vecop.v	-- Vector operations such as rotation and concatenation.
+* trans.v	-- Transition on VAS.
+* VASStoVAS.v -- Translation from VASS to VAS.
+
+Required OPAM Packages:
+
+* coq-mathcomp-ssreflect 2.2.0
+* coq-mathcomp-algebra 2.2.0
+* coq-mathcomp-finmap 2.1.0
+* coq-mathcomp-zify 1.5.0+2.0+8.16
+
+Authors:
+
+* Shota Wakisaka
+* Mitsuharu Yamamoto

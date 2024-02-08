@@ -1,0 +1,14 @@
+*~
+*.aux
+*.glob
+*.vo
+*.vok
+*.vos
+Makefile.conf
+.Makefile.d
+.lia.cache
+monad.v
+ssreflectext.v
+petrinet.v
+afext.v
+orderext.v

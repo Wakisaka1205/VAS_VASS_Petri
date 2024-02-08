@@ -1,0 +1,17 @@
+ssreflectext.v
+orderext.v
+monad.v
+afext.v
+petrinet.v
+vecop.v
+vectrans.v
+VAS_VASS.v
+translation.v
+
+-R . Translation
+-arg -w -arg -redundant-canonical-projection
+-arg -w -arg -notation-overridden
+-arg -w -arg +duplicate-clear
+-arg -w -arg +non-primitive-record
+-arg -w -arg +undeclared-scope
+-arg -w -arg +deprecated-hint-without-locality
