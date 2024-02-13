@@ -7,7 +7,7 @@ Contents:
 * vecop.v	-- Vector operations such as rotation and concatenation.
 * vectrans.v	-- Definition transition on VAS.
 * VAS_VASS.v -- Formalization of VAS and VASS.
-* VASStoVAS.v -- Translation between VAS, VASS and Petri net.
+* translation.v -- Translation between VAS, VASS and Petri net.
 
 Required OPAM Packages:
 
@@ -17,7 +17,7 @@ Required OPAM Packages:
 * coq-mathcomp-zify 1.5.0+2.0+8.16
 
 Required repositories:
-* karpmiller-- Formalizeation of Petri net and Karp-Miller tree.
+* karpmiller-- Formalization of Petri net and Karp-Miller tree.
 The code is available at https://bitbucket.org/mituharu/karpmiller/src/master/.
 
 Authors:
